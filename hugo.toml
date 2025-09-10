@@ -1,0 +1,35 @@
+baseURL = 'https://ibrahim0x01.github.io/cybersec-blog'
+languageCode = 'en-us'
+title = 'CyberSec Insights'
+theme = 'PaperMod'
+
+[params]
+  author = 'Ahmed Ibrahim'
+  description = 'Cybersecurity tutorials, tools, and insights'
+  keywords = ['cybersecurity', 'infosec', 'hacking', 'security']
+  
+  defaultTheme = 'dark'
+  
+  [[params.socialIcons]]
+    name = 'github'
+    url = 'https://github.com/ibrahim0x01'
+  
+  [[params.socialIcons]]
+    name = 'twitter'
+    url = 'https://twitter.com/ibrahim0x01'
+
+[menu]
+  [[menu.main]]
+    name = 'Posts'
+    url = '/posts/'
+    weight = 10
+  
+  [[menu.main]]
+    name = 'Tools'
+    url = '/tools/'
+    weight = 20
+    
+  [[menu.main]]
+    name = 'About'
+    url = '/about/'
+    weight = 30
